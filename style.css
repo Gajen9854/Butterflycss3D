@@ -49,8 +49,8 @@ html {
 
 
 .butterflybody {
-    top: 40%;
-    width: 20px;
+    top: 42%;
+    width: 17px;
     height: 160px;
     background-color: transparent;
     position: absolute;
@@ -62,7 +62,7 @@ html {
     position: absolute;
     width: 400px;
     height: 310px;
-    left: -190px;
+    left: -192px;
     top: -26px;
     filter: drop-shadow(1px 1px 1px rgb(80, 78, 78));
 }
