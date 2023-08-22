@@ -67,14 +67,6 @@ html {
     filter: drop-shadow(1px 1px 1px rgb(80, 78, 78));
 }
 
-.small {
-    width: 20px;
-    height: 40px;
-    position: absolute;
-    background-color: white;
-    z-index: 100;
-}
-
 .wing2 {
     top: 41%;
     width: 200px;
