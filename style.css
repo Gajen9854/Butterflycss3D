@@ -42,7 +42,7 @@ html {
     position: absolute;
     width: 405px;
     height: 200px;
-    filter: drop-shadow(-10px 13px 8px rgb(80, 78, 78));
+    filter: drop-shadow(-10px 30px 8px rgb(80, 78, 78));
     animation: fly2 2s infinite;
 
 }
@@ -90,7 +90,7 @@ html {
     width: 405px;
     height: 200px;
     left: -205px;
-    filter: drop-shadow(10px 13px 8px rgb(80, 78, 78));
+    filter: drop-shadow(10px 30px 8px rgb(80, 78, 78));
     animation: fly 2.5s infinite;
 
 }
