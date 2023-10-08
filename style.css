@@ -112,3 +112,11 @@ html {
     transform: rotateY(-60deg);
   }
 }
+
+@media screen and (max-width: 1000px) {
+  html {
+    background-size: 100rem 100rem;
+    width: 100%;
+    height: 100%;
+  }
+}
