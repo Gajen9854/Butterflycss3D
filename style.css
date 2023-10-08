@@ -11,7 +11,7 @@ html {
   perspective: 100px;
   width: 100%;
   height: 100vh;
-  background-image: url("/butterfly/background.png");
+  background-image: url("background.png");
   background-size: 100rem 100vh;
 }
 
