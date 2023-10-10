@@ -20,6 +20,7 @@ html {
   width: 90%;
   height: 100vh;
   rotate: 20deg;
+  animation: rote 5s infinite;
 }
 
 .wing1 {
@@ -45,7 +46,7 @@ html {
   width: 405px;
   height: 200px;
   filter: drop-shadow(-10px 30px 8px rgb(11, 11, 11));
-  animation: fly2 2s infinite;
+  animation: fly2 0.2s infinite;
 }
 
 .butterflybody {
@@ -90,7 +91,7 @@ html {
   height: 200px;
   left: -205px;
   filter: drop-shadow(10px 30px 8px rgb(8, 8, 8));
-  animation: fly 1.5s infinite;
+  animation: fly 0.2s infinite;
 }
 
 @keyframes fly {
@@ -110,6 +111,22 @@ html {
 
   100% {
     transform: rotateY(-60deg);
+  }
+}
+
+@keyframes rote {
+  0% {
+    transform: translatey(260px);
+  }
+  20% {
+    transform: translatey(130rem);
+    transform: scale(1, 0.6);
+  }
+  50% {
+    transform: rotate(30deg);
+  }
+  100% {
+    transform: translatey(-460px);
   }
 }
 
