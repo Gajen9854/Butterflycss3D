@@ -116,17 +116,16 @@ html {
 
 @keyframes rote {
   0% {
-    transform: translatey(260px);
+    transform: translatey(360px);
   }
   20% {
-    transform: translatey(130rem);
-    transform: scale(1, 0.6);
+    transform: scale(0.5, 0.6);
   }
   50% {
     transform: rotate(30deg);
   }
   100% {
-    transform: translatey(-460px);
+    transform: translatey(-560px);
   }
 }
 
